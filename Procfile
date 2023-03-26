@@ -1,2 +1,2 @@
 
-web: gunicorn gb_flask_demo:wsgi
+web: gunicorn wsgi:app
